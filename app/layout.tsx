@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "TOM3 VPN - Fast & Secure VPN Service",
   description:
     "TOM3 VPN provides fast, secure VPN service to protect your online privacy with one-click connection to global servers.",
+  icons: {
+    icon: "/TOM3VPN.svg",
+  },
 };
 
 export default function RootLayout({
