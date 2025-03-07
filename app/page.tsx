@@ -254,8 +254,8 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-left">
-                    I've tried several VPN services, but this one is by far the
-                    best.
+                    I&apos;ve tried several VPN services, but this one is by far
+                    the best.
                   </p>
                 </div>
 
@@ -274,8 +274,8 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-left">
-                    It's fast, reliable, and has all the security features I
-                    need.
+                    It&apos;s fast, reliable, and has all the security features
+                    I need.
                   </p>
                 </div>
 
@@ -403,6 +403,20 @@ export default function Home() {
                 className="mr-2"
               />
               <span className="text-lg font-semibold">TOM3 VPN</span>
+            </div>
+            <div className="flex gap-6 mb-4 md:mb-0">
+              <Link href="/" className="text-sm text-gray-400 hover:text-white">
+                Home
+              </Link>
+              <Link
+                href="/privacy-policy"
+                className="text-sm text-gray-400 hover:text-white"
+              >
+                Privacy Policy
+              </Link>
+              <Link href="#" className="text-sm text-gray-400 hover:text-white">
+                Terms of Service
+              </Link>
             </div>
             <div className="text-sm text-gray-400">
               © {new Date().getFullYear()} TOM3. All Rights Reserved.
