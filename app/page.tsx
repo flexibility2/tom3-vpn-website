@@ -164,15 +164,222 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Community Trust Section */}
       <section className="bg-black text-white py-16">
         <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">
+            Trusted by Community
+          </h2>
+          <p className="text-xl mb-12 max-w-3xl mx-auto">
+            Rated <span className="text-[#FFFB42] font-bold">4.9/5.0</span> by
+            over <span className="text-[#FFFB42] font-bold">30,000+</span> users
+            around the world
+          </p>
+
+          <div className="max-w-6xl mx-auto overflow-hidden relative">
+            {/* Carousel container */}
+            <div className="flex animate-carousel">
+              {/* First group of reviews */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-none w-full">
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        XG
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Xiaowan Guo</h3>
+                      <p className="text-sm text-gray-400">@Product Manager</p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    Great for protecting my privacy when using public WiFi
+                    networks.
+                  </p>
+                </div>
+
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        MA
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Michael Alexander</h3>
+                      <p className="text-sm text-gray-400">@Vice President</p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    This VPN has made the entire browsing experience incredibly
+                    smooth.
+                  </p>
+                </div>
+
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        AG
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Alex Grant</h3>
+                      <p className="text-sm text-gray-400">
+                        @Chief Technology Officer
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    Great VPN service, super user-friendly and reliable!
+                  </p>
+                </div>
+              </div>
+
+              {/* Second group of reviews */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-none w-full">
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        BW
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Brandon Williams</h3>
+                      <p className="text-sm text-gray-400">
+                        @Software Engineer
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    I've tried several VPN services, but this one is by far the
+                    best.
+                  </p>
+                </div>
+
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        EJ
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Emily Johnson</h3>
+                      <p className="text-sm text-gray-400">
+                        @Financial Advisor
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    It's fast, reliable, and has all the security features I
+                    need.
+                  </p>
+                </div>
+
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        LM
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Li Ming</h3>
+                      <p className="text-sm text-gray-400">@Data Analyst</p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    Connection stability is top-notch, I feel secure with TOM3
+                    VPN.
+                  </p>
+                </div>
+              </div>
+
+              {/* Copy of first group for seamless loop */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-none w-full">
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        XG
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Xiaowan Guo</h3>
+                      <p className="text-sm text-gray-400">@Product Manager</p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    Great for protecting my privacy when using public WiFi
+                    networks.
+                  </p>
+                </div>
+
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        MA
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Michael Alexander</h3>
+                      <p className="text-sm text-gray-400">@Vice President</p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    This VPN has made the entire browsing experience incredibly
+                    smooth.
+                  </p>
+                </div>
+
+                <div className="bg-[#111] p-6 rounded-xl">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center mr-3">
+                      <span className="text-[#FFFB42] text-xl font-bold">
+                        AG
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-bold">Alex Grant</h3>
+                      <p className="text-sm text-gray-400">
+                        @Chief Technology Officer
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-left">
+                    Great VPN service, super user-friendly and reliable!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Gradient masks */}
+            <div className="absolute top-0 left-0 h-full w-16 bg-gradient-to-r from-black to-transparent"></div>
+            <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-black to-transparent"></div>
+          </div>
+
+          {/* Navigation dots */}
+          <div className="flex justify-center mt-8 gap-2">
+            <button className="w-3 h-3 rounded-full bg-[#FFFB42]"></button>
+            <button className="w-3 h-3 rounded-full bg-gray-600"></button>
+            <button className="w-3 h-3 rounded-full bg-gray-600"></button>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-black text-white py-16 border-t border-gray-800">
+        <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Start Protecting Your Online Privacy Now
+            Protect Your Online Privacy Now
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             TOM3 VPN offers a simple privacy protection solution with just one
-            click to connect
+            click
           </p>
           <Link
             href="https://chrome.google.com/webstore"
