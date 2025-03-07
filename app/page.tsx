@@ -92,50 +92,72 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
             How It Works
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="flex flex-col items-center">
-              <div className="w-64 h-64 relative mb-4 transform transition-all hover:scale-105">
-                <Image
-                  src="/disconnected.png"
-                  alt="Install Extension"
-                  width={256}
-                  height={256}
-                  className="rounded-lg shadow-lg"
-                />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="flex flex-col items-center bg-white bg-opacity-80 p-6 rounded-xl shadow-lg transform transition-all hover:scale-105">
+              <div className="w-24 h-24 bg-[#FFFB42] rounded-full flex items-center justify-center mb-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                  />
+                </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">1. Install Extension</h3>
               <p className="text-center">
                 Install the TOM3 VPN extension from the Chrome Web Store
               </p>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="w-64 h-64 relative mb-4 transform transition-all hover:scale-105">
-                <Image
-                  src="/connecting.png"
-                  alt="Click Connect"
-                  width={256}
-                  height={256}
-                  className="rounded-lg shadow-lg"
-                />
+            <div className="flex flex-col items-center bg-white bg-opacity-80 p-6 rounded-xl shadow-lg transform transition-all hover:scale-105">
+              <div className="w-24 h-24 bg-[#FFFB42] rounded-full flex items-center justify-center mb-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">2. Click Connect</h3>
               <p className="text-center">
                 Click the CONNECT button to connect to our VPN servers
               </p>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="w-64 h-64 relative mb-4 transform transition-all hover:scale-105">
-                <Image
-                  src="/connected.png"
-                  alt="Browse Securely"
-                  width={256}
-                  height={256}
-                  className="rounded-lg shadow-lg"
-                />
+            <div className="flex flex-col items-center bg-white bg-opacity-80 p-6 rounded-xl shadow-lg transform transition-all hover:scale-105">
+              <div className="w-24 h-24 bg-[#FFFB42] rounded-full flex items-center justify-center mb-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                  />
+                </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">3. Browse Securely</h3>
               <p className="text-center">
-                Enjoy a secure and private internet browsing experience
+                Enjoy a secure and private internet browsing experience with
+                your IP address and location protected
               </p>
             </div>
           </div>
