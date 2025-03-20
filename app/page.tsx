@@ -24,7 +24,7 @@ export default function Home() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            href="https://chrome.google.com/webstore"
+            href="https://chromewebstore.google.com/detail/jcmdkdpmidfmficpfacgofmhoooecnad?utm_source=item-share-cb"
             className="bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-80 transition-all transform hover:scale-105"
           >
             Get Chrome Extension
@@ -382,7 +382,7 @@ export default function Home() {
             click
           </p>
           <Link
-            href="https://chrome.google.com/webstore"
+            href="https://chromewebstore.google.com/detail/jcmdkdpmidfmficpfacgofmhoooecnad?utm_source=item-share-cb"
             className="bg-[#FFFB42] text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105 inline-block"
           >
             Get Chrome Extension
